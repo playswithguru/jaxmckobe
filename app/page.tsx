@@ -132,19 +132,18 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white text-slate-900">
     <header className="sticky top-0 z-40 w-full border-b border-slate-200 bg-white/95 backdrop-blur">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         
-        <div className="flex items-center gap-4">
-          <img
-            src="/logo.png"
-            alt="JaxMcKobe"
-            className="h-10 md:h-24 w-auto"
-          />
-
-          <span className="hidden md:block text-sm text-slate-500">
-            Digital Foundations for Modern Institutions
-          </span>
-        </div>
+      <div className="flex items-center gap-4">
+        <img
+          src="/logo.png"
+          alt="JaxMcKobe"
+          className="h-10 md:h-12 w-auto"
+        />
+        <span className="hidden md:block text-sm text-slate-500 leading-snug max-w-[220px]">
+          Digital Foundations for Modern Institutions
+        </span>
+      </div>
 
         <nav className="hidden items-center gap-8 text-sm text-slate-600 md:flex">
           <a href="#capabilities" className="transition hover:text-slate-900">Capabilities</a>
@@ -234,6 +233,58 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-6 pt-10 pb-20">
+        <div className="max-w-3xl">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">
+            Selected Experience
+          </p>
+          <h2 className="mt-3 text-3xl font-semibold tracking-tight text-slate-950 md:text-4xl">
+            Enterprise data, governance, and transformation work across complex environments
+          </h2>
+          <p className="mt-5 text-lg leading-8 text-slate-600">
+            Representative experience delivering enterprise data transformation, governance frameworks, and scalable system architecture.
+          </p>
+        </div>
+
+        <div className="mt-6 grid gap-6 md:grid-cols-3">
+          
+          <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+            <h3 className="text-lg font-semibold text-slate-950">AO Smith</h3>
+            <p className="mt-3 text-sm leading-7 text-slate-600">
+              Redesigned enterprise product data models across four core repositories
+            </p>
+            <p className="mt-3 text-sm font-medium text-slate-800">
+              → Established governance structure, improved data consistency, and enabled scalable product management
+            </p>
+          </div>
+
+          <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+            <h3 className="text-lg font-semibold text-slate-950">Mitsubishi Electric Trane</h3>
+            <p className="mt-3 text-sm leading-7 text-slate-600">
+              Defined product data architecture and governance framework across systems
+            </p>
+            <p className="mt-3 text-sm font-medium text-slate-800">
+              → Enabled structured product lifecycle management and improved cross-system alignment
+            </p>
+          </div>
+
+          <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+            <h3 className="text-lg font-semibold text-slate-950">US LBM</h3>
+            <p className="mt-3 text-sm leading-7 text-slate-600">
+              Optimized customer and supplier match/merge logic and survivorship rules
+            </p>
+            <p className="mt-3 text-sm font-medium text-slate-800">
+              → Increased data accuracy and reduced duplication across enterprise systems
+            </p>
+          </div>
+
+        </div>
+
+        <p className="mt-8 text-xs text-slate-400">
+          Representative experience includes work performed directly and through consulting organizations. Company names are used for illustrative purposes only.
+        </p>
       </section>
 
       <section className="border-y border-slate-200 bg-white">
@@ -628,15 +679,14 @@ export default function HomePage() {
             </p>
 
             <div className="mt-8 space-y-4 text-sm text-slate-700">
-              <div>
-                <span className="font-semibold">Email:</span>{" "}
-                yourname@jaxmckobe.com
+              <div className="mt-4 space-y-2 text-sm text-slate-600">
+                <p><span className="font-semibold text-slate-900">Email:</span> info@jaxmckobe.com</p>
+                <p><span className="font-semibold text-slate-900">Response Time:</span> Within 24 hours</p>
               </div>
-              <div>
-                <span className="font-semibold">LinkedIn:</span> Your LinkedIn profile
-              </div>
-              <div>
-                <span className="font-semibold">Location:</span> Houston, Texas
+              <div className="mt-6 space-y-2 text-sm text-slate-600">
+                <p className="font-semibold text-slate-900 tracking-wide">OFFICES</p>
+                <p>Houston, Texas (USA)</p>
+                <p>Douala, Cameroon</p>
               </div>
             </div>
           </div>
