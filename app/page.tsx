@@ -131,37 +131,37 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-white text-slate-900">
-      <header className="sticky top-0 z-40 w-full border-b border-slate-200 bg-white/95 backdrop-blur">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          
-          <div className="flex items-center gap-4">
-            <img
-              src="/logo.png"
-              alt="JaxMcKobe"
-              className="h-20 md:h-24 w-auto"
-            />
+    <header className="sticky top-0 z-40 w-full border-b border-slate-200 bg-white/95 backdrop-blur">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+        
+        <div className="flex items-center gap-4">
+          <img
+            src="/logo.png"
+            alt="JaxMcKobe"
+            className="h-10 md:h-24 w-auto"
+          />
 
-            <span className="hidden md:block text-sm text-slate-500">
-              Digital Foundations for Modern Institutions
-            </span>
-          </div>
-
-          <nav className="hidden items-center gap-8 text-sm text-slate-600 md:flex">
-            <a href="#capabilities" className="transition hover:text-slate-900">Capabilities</a>
-            <a href="#focus-areas" className="transition hover:text-slate-900">Focus Areas</a>
-            <a href="#about" className="transition hover:text-slate-900">About</a>
-            <a href="#leadership" className="transition hover:text-slate-900">Leadership</a>
-            <a href="#contact" className="transition hover:text-slate-900">Contact</a>
-          </nav>
-
-          <a
-            href="#contact"
-            className="rounded-full bg-sky-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-sky-700"
-          >
-            Request Consultation
-          </a>
+          <span className="hidden md:block text-sm text-slate-500">
+            Digital Foundations for Modern Institutions
+          </span>
         </div>
-      </header>
+
+        <nav className="hidden items-center gap-8 text-sm text-slate-600 md:flex">
+          <a href="#capabilities" className="transition hover:text-slate-900">Capabilities</a>
+          <a href="#focus-areas" className="transition hover:text-slate-900">Focus Areas</a>
+          <a href="#about" className="transition hover:text-slate-900">About</a>
+          <a href="#leadership" className="transition hover:text-slate-900">Leadership</a>
+          <a href="#contact" className="transition hover:text-slate-900">Contact</a>
+        </nav>
+
+        <a
+          href="#contact"
+          className="rounded-full bg-sky-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-sky-700"
+        >
+          Request Consultation
+        </a>
+      </div>
+    </header>
 
       <section className="relative bg-white">
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,rgba(14,165,233,0.08),transparent_50%)]" />
