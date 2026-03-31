@@ -131,34 +131,43 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-white text-slate-900">
-    <header className="sticky top-0 z-40 w-full border-b border-slate-200 bg-white/95 backdrop-blur">
+    <header className="w-full border-b border-slate-200 bg-white">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        
-      <div className="flex items-center gap-4">
-        <img
-          src="/logo.png"
-          alt="JaxMcKobe"
-          className="h-10 md:h-12 w-auto"
-        />
-        <span className="hidden md:block text-sm text-slate-500 leading-snug max-w-[220px]">
-          Digital Foundations for Modern Institutions
-        </span>
-      </div>
 
-        <nav className="hidden items-center gap-8 text-sm text-slate-600 md:flex">
-          <a href="#capabilities" className="transition hover:text-slate-900">Capabilities</a>
-          <a href="#focus-areas" className="transition hover:text-slate-900">Focus Areas</a>
-          <a href="#about" className="transition hover:text-slate-900">About</a>
-          <a href="#leadership" className="transition hover:text-slate-900">Leadership</a>
-          <a href="#contact" className="transition hover:text-slate-900">Contact</a>
+        {/* LOGO */}
+        <div className="text-2xl font-semibold text-slate-900">
+          <span className="text-slate-400">Jax</span>
+          <span className="text-sky-500">McKobe</span>
+        </div>
+
+        {/* NAV LINKS (hidden on mobile) */}
+        <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+          <a href="#capabilities" className="hover:text-slate-900">Capabilities</a>
+          <a href="#focus" className="hover:text-slate-900">Focus Areas</a>
+          <a href="#about" className="hover:text-slate-900">About</a>
+          <a href="#leadership" className="hover:text-slate-900">Leadership</a>
+          <a href="#contact" className="hover:text-slate-900">Contact</a>
         </nav>
 
-        <a
-          href="#contact"
-          className="rounded-full bg-sky-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-sky-700"
-        >
-          Request Consultation
-        </a>
+        {/* CTA BUTTON */}
+        <div>
+          {/* MOBILE: SMALL BUTTON */}
+          <a
+            href="#contact"
+            className="inline-flex md:hidden rounded-full bg-sky-600 px-4 py-2 text-xs font-semibold text-white"
+          >
+            Contact
+          </a>
+
+          {/* DESKTOP: FULL BUTTON */}
+          <a
+            href="#contact"
+            className="hidden md:inline-flex rounded-full bg-sky-600 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-sky-700"
+          >
+            Request Consultation
+          </a>
+        </div>
+
       </div>
     </header>
 
