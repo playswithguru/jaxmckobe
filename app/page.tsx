@@ -131,58 +131,62 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-white text-slate-900">
-    <header className="w-full border-b border-slate-200 bg-white">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-
-        {/* LOGO */}
-        <div className="text-2xl font-semibold text-slate-900">
-          <span className="text-slate-400">Jax</span>
-          <span className="text-sky-500">McKobe</span>
-        </div>
-
-        {/* NAV LINKS (hidden on mobile) */}
-        <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
-          <a href="#capabilities" className="hover:text-slate-900">Capabilities</a>
-          <a href="#focus" className="hover:text-slate-900">Focus Areas</a>
-          <a href="#about" className="hover:text-slate-900">About</a>
-          <a href="#leadership" className="hover:text-slate-900">Leadership</a>
-          <a href="#contact" className="hover:text-slate-900">Contact</a>
-        </nav>
-
-        {/* CTA BUTTON */}
-        <div>
-          {/* MOBILE: SMALL BUTTON */}
-          <a
-            href="#contact"
-            className="inline-flex md:hidden rounded-full bg-sky-600 px-4 py-2 text-xs font-semibold text-white"
-          >
-            Contact
+      <header className="w-full border-b border-slate-200 bg-white">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+          <a href="#" className="shrink-0 leading-none">
+            <div className="text-3xl font-semibold tracking-tight md:text-4xl">
+              <span className="text-slate-400">Jax</span>
+              <span className="text-[#4C96C1]">McKobe</span>
+            </div>
           </a>
 
-          {/* DESKTOP: FULL BUTTON */}
-          <a
-            href="#contact"
-            className="hidden md:inline-flex rounded-full bg-sky-600 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-sky-700"
-          >
-            Request Consultation
-          </a>
-        </div>
+          <nav className="hidden items-center gap-8 text-sm font-medium text-slate-600 md:flex">
+            <a href="#capabilities" className="hover:text-slate-900">
+              Capabilities
+            </a>
+            <a href="#focus-areas" className="hover:text-slate-900">
+              Focus Areas
+            </a>
+            <a href="#about" className="hover:text-slate-900">
+              About
+            </a>
+            <a href="#leadership" className="hover:text-slate-900">
+              Leadership
+            </a>
+            <a href="#contact" className="hover:text-slate-900">
+              Contact
+            </a>
+          </nav>
 
-      </div>
-    </header>
+          <div>
+            <a
+              href="#contact"
+              className="inline-flex rounded-full bg-[#4C96C1] px-4 py-2 text-xs font-semibold text-white md:hidden"
+            >
+              Contact
+            </a>
+
+            <a
+              href="#contact"
+              className="hidden rounded-full bg-[#4C96C1] px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[#4C96C1] md:inline-flex"
+            >
+              Request Consultation
+            </a>
+          </div>
+        </div>
+      </header>
 
       <section className="relative bg-white">
-        <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,rgba(14,165,233,0.08),transparent_50%)]" />
+        <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,rgba(95,168,211,0.10),transparent_50%)]" />
 
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-16 px-6 py-12 md:py-16 lg:grid-cols-2">
           <div>
-            <div className="mb-6 inline-flex w-fit rounded-full border border-sky-200 bg-white px-4 py-2 text-sm font-medium text-sky-700 shadow-sm">
+            <div className="mb-6 inline-flex w-fit rounded-full border border-[#B9D9EC] bg-white px-4 py-2 text-sm font-medium text-[#4C96C1] shadow-sm">
               Strategy • Systems • Scalable Transformation
             </div>
 
-            <h1 className="max-w-2xl text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight leading-[1.08] text-slate-950">
-              Digital foundations for healthcare,
-              education, and enterprise modernization
+            <h1 className="max-w-2xl text-4xl font-semibold leading-[1.08] tracking-tight text-slate-950 md:text-5xl lg:text-6xl">
+              Digital foundations for healthcare, education, and enterprise modernization
             </h1>
 
             <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600">
@@ -192,7 +196,7 @@ export default function HomePage() {
             <div className="mt-10 flex flex-wrap gap-4">
               <a
                 href="#contact"
-                className="rounded-full bg-sky-600 px-7 py-3 text-sm font-semibold text-white transition hover:bg-sky-700"
+                className="rounded-full bg-[#4C96C1] px-7 py-3 text-sm font-semibold text-white transition hover:bg-[#4C96C1]"
               >
                 Request a Consultation
               </a>
@@ -203,10 +207,11 @@ export default function HomePage() {
                 View Capabilities
               </a>
             </div>
-            <div className="mt-10 flex items-center max-w-xl">
-            <div className="h-px w-14 bg-sky-500" />
-            <div className="ml-3 h-px flex-1 bg-slate-100" />
-          </div>
+
+            <div className="mt-10 flex max-w-xl items-center">
+              <div className="h-px w-14 bg-[#4C96C1]" />
+              <div className="ml-3 h-px flex-1 bg-slate-100" />
+            </div>
           </div>
 
           <div>
@@ -222,7 +227,7 @@ export default function HomePage() {
                 </div>
 
                 <div className="rounded-2xl bg-blue-50 p-5">
-                  <p className="text-xs font-semibold uppercase tracking-wide text-blue-700">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-[#3F8FC0]">
                     Education
                   </p>
                   <p className="mt-1 text-sm leading-7 text-slate-700">
@@ -244,7 +249,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 pt-10 pb-20">
+      <section className="mx-auto max-w-7xl px-6 pb-20 pt-10">
         <div className="max-w-3xl">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">
             Selected Experience
@@ -258,7 +263,6 @@ export default function HomePage() {
         </div>
 
         <div className="mt-6 grid gap-6 md:grid-cols-3">
-          
           <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
             <h3 className="text-lg font-semibold text-slate-950">AO Smith</h3>
             <p className="mt-3 text-sm leading-7 text-slate-600">
@@ -288,7 +292,6 @@ export default function HomePage() {
               → Increased data accuracy and reduced duplication across enterprise systems
             </p>
           </div>
-
         </div>
 
         <p className="mt-8 text-xs text-slate-400">
@@ -333,7 +336,7 @@ export default function HomePage() {
 
       <section id="capabilities" className="mx-auto max-w-7xl px-6 py-20">
         <div className="max-w-3xl">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#4C96C1]">
             What We Do
           </p>
           <h2 className="mt-3 text-4xl font-semibold tracking-tight text-slate-950 md:text-5xl">
@@ -351,13 +354,13 @@ export default function HomePage() {
           {services.map((service) => (
             <div
               key={service.title}
-              className="rounded-3xl bg-white p-6 shadow-sm border border-slate-100"
+              className="rounded-3xl border border-slate-100 bg-white p-6 shadow-sm"
             >
               <h3 className="text-xl font-semibold">{service.title}</h3>
               <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-600">
                 {service.points.map((point) => (
                   <li key={point} className="flex gap-3">
-                    <span className="mt-2 h-2 w-2 rounded-full bg-sky-600" />
+                    <span className="mt-2 h-2 w-2 rounded-full bg-[#4C96C1]" />
                     <span>{point}</span>
                   </li>
                 ))}
@@ -386,7 +389,7 @@ export default function HomePage() {
             {insights.map((insight) => (
               <div
                 key={insight.title}
-                className="group cursor-pointer rounded-3xl bg-white p-8 border border-slate-100 shadow-sm transition hover:shadow-md"
+                className="group cursor-pointer rounded-3xl border border-slate-100 bg-white p-8 shadow-sm transition hover:shadow-md"
               >
                 <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">
                   {insight.tag}
@@ -449,7 +452,7 @@ export default function HomePage() {
 
       <section className="mx-auto max-w-7xl px-6 py-20">
         <div className="max-w-3xl">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#4C96C1]">
             How We Work
           </p>
           <h2 className="mt-3 text-4xl font-semibold tracking-tight text-slate-950 md:text-5xl">
@@ -467,7 +470,7 @@ export default function HomePage() {
               key={step.title}
               className="rounded-3xl bg-white p-6 shadow-lg shadow-slate-200/40"
             >
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-sky-100 text-sm font-semibold text-sky-700">
+              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#EAF4FA] text-sm font-semibold text-[#4C96C1]">
                 {index + 1}
               </div>
               <h3 className="mt-5 text-xl font-semibold">{step.title}</h3>
@@ -481,7 +484,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid gap-10 md:grid-cols-2">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-300">
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#9FD0EA]">
                 Why JaxMcKobe
               </p>
               <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
@@ -520,7 +523,7 @@ export default function HomePage() {
       <section id="about" className="mx-auto max-w-7xl px-6 py-20">
         <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm">
-            <p className="text-sm font-semibold uppercase tracking-[0.22em] text-sky-700">
+            <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#4C96C1]">
               About JaxMcKobe
             </p>
 
@@ -609,7 +612,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid gap-10 md:grid-cols-2">
             <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#4C96C1]">
                 Who We Serve
               </p>
               <h2 className="mt-3 text-3xl font-semibold tracking-tight">
@@ -618,7 +621,7 @@ export default function HomePage() {
               <ul className="mt-6 space-y-4 text-base leading-7 text-slate-600">
                 {whoWeServe.map((item) => (
                   <li key={item} className="flex gap-3">
-                    <span className="mt-2 h-2.5 w-2.5 rounded-full bg-sky-600" />
+                    <span className="mt-2 h-2.5 w-2.5 rounded-full bg-[#4C96C1]" />
                     <span>{item}</span>
                   </li>
                 ))}
@@ -647,7 +650,7 @@ export default function HomePage() {
       </section>
 
       <section className="mx-auto max-w-7xl px-6 py-20">
-        <div className="rounded-[2rem] bg-gradient-to-r from-sky-600 to-emerald-600 px-8 py-12 text-white md:px-12">
+        <div className="rounded-[2rem] bg-gradient-to-r from-[#4C96C1] to-emerald-600 px-8 py-12 text-white md:px-12">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-white/80">
             Define the Right Foundation for Your Organization
           </p>
@@ -676,7 +679,7 @@ export default function HomePage() {
       <section id="contact" className="border-t border-slate-200 bg-slate-50">
         <div className="mx-auto grid max-w-7xl gap-10 px-6 py-20 md:grid-cols-2">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#4C96C1]">
               Contact
             </p>
             <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
@@ -709,7 +712,7 @@ export default function HomePage() {
                 <input
                   type="text"
                   placeholder="Your name"
-                  className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-sky-500"
+                  className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-[#4C96C1]"
                 />
               </div>
 
@@ -720,7 +723,7 @@ export default function HomePage() {
                 <input
                   type="email"
                   placeholder="you@example.com"
-                  className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-sky-500"
+                  className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-[#4C96C1]"
                 />
               </div>
 
@@ -731,7 +734,7 @@ export default function HomePage() {
                 <input
                   type="text"
                   placeholder="Organization name"
-                  className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-sky-500"
+                  className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-[#4C96C1]"
                 />
               </div>
 
@@ -742,7 +745,7 @@ export default function HomePage() {
                 <textarea
                   rows={5}
                   placeholder="Tell us about your needs"
-                  className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-sky-500"
+                  className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-[#4C96C1]"
                 />
               </div>
 

@@ -5,7 +5,13 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        brand: {
+          primary: "#5FA8D3",
+        },
+      },
+    },
   },
   plugins: [],
 };
