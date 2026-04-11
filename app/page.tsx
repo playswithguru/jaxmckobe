@@ -504,6 +504,91 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+          
+          <section className="bg-gradient-to-b from-white to-slate-50">
+            <div className="mx-auto max-w-7xl px-6 py-24">
+              
+              {/* Header */}
+              <div className="max-w-3xl">
+                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#4C96C1]">
+                  Selected Engagement
+                </p>
+
+                <h2 className="mt-3 text-4xl font-semibold tracking-tight text-slate-950">
+                  Transforming fragmented product data into a scalable enterprise foundation
+                </h2>
+
+                <p className="mt-5 text-lg leading-8 text-slate-600">
+                  Representative engagement delivering enterprise data architecture and governance transformation across a global manufacturing environment.
+                </p>
+              </div>
+
+              {/* Grid */}
+              <div className="mt-12 grid gap-6 md:grid-cols-2">
+                
+                {/* Context */}
+                <div className="relative rounded-3xl bg-white p-6 border border-slate-200/80 shadow-[0_6px_18px_rgba(0,0,0,0.04)] transition-all duration-300 hover:shadow-[0_12px_30px_rgba(0,0,0,0.08)] hover:-translate-y-1 hover:border-[#4C96C1]/30">
+                  <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#4C96C1]/5 via-transparent to-transparent pointer-events-none" />
+                  
+                  <div className="relative">
+                    <p className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">
+                      Context
+                    </p>
+                    <p className="mt-3 text-sm leading-7 text-slate-600">
+                      Global manufacturing organization operating across multiple regions with product data distributed across disconnected systems and platforms.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Challenge */}
+                <div className="relative rounded-3xl bg-white p-6 border border-slate-200/80 shadow-[0_6px_18px_rgba(0,0,0,0.04)] transition-all duration-300 hover:shadow-[0_12px_30px_rgba(0,0,0,0.08)] hover:-translate-y-1 hover:border-[#4C96C1]/30">
+                  <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#4C96C1]/5 via-transparent to-transparent pointer-events-none" />
+                  
+                  <div className="relative">
+                    <p className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">
+                      Challenge
+                    </p>
+                    <p className="mt-3 text-sm leading-7 text-slate-600">
+                      Inconsistent data definitions, fragmented governance, and lack of visibility across systems created duplication, inefficiencies, and limited decision-making confidence.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Approach */}
+                <div className="relative rounded-3xl bg-white p-6 border border-slate-200/80 shadow-[0_6px_18px_rgba(0,0,0,0.04)] transition-all duration-300 hover:shadow-[0_12px_30px_rgba(0,0,0,0.08)] hover:-translate-y-1 hover:border-[#4C96C1]/30">
+                  <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#4C96C1]/5 via-transparent to-transparent pointer-events-none" />
+                  
+                  <div className="relative">
+                    <p className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">
+                      Approach
+                    </p>
+                    <p className="mt-3 text-sm leading-7 text-slate-600">
+                      Designed and implemented standardized enterprise data models, governance workflows, and integration patterns aligned to business processes and system architecture.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Outcome */}
+                <div className="relative rounded-3xl bg-white p-6 border border-slate-200/80 shadow-[0_6px_18px_rgba(0,0,0,0.04)] transition-all duration-300 hover:shadow-[0_12px_30px_rgba(0,0,0,0.08)] hover:-translate-y-1 hover:border-[#4C96C1]/30">
+                  <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#4C96C1]/5 via-transparent to-transparent pointer-events-none" />
+                  
+                  <div className="relative">
+                    <p className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">
+                      Outcome
+                    </p>
+
+                    <ul className="mt-3 space-y-2 text-sm leading-7 text-slate-600">
+                      <li>→ Improved product data consistency across systems</li>
+                      <li>→ Reduced duplication and manual reconciliation efforts</li>
+                      <li>→ Enabled scalable product lifecycle management</li>
+                      <li>→ Strengthened operational visibility and decision-making</li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </section>
 
       <section className="mx-auto max-w-7xl px-6 py-24">
         <div className="max-w-3xl">
