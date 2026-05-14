@@ -150,9 +150,6 @@ export default function HomePage() {
             <a href="#about" className="transition hover:text-white">
               About
             </a>
-            <a href="#leadership" className="transition hover:text-white">
-              Leadership
-            </a>
             <a href="#contact" className="transition hover:text-white">
               Contact
             </a>
@@ -198,13 +195,11 @@ export default function HomePage() {
             </div>
 
             <h1 className="max-w-2xl text-4xl font-semibold leading-[1.04] tracking-tight text-white md:text-6xl lg:text-[4.5rem]">
-              Digital foundations for healthcare, education, and enterprise modernization
+              Building foundations for digital transformation
             </h1>
 
             <p className="mt-8 max-w-xl text-lg leading-8 text-slate-200 md:text-[1.2rem] md:leading-9">
-              We help governments, institutions, and enterprises modernize
-              operations through trusted data, scalable systems, and practical
-              execution.
+          We help governments, institutions, and enterprises improve operations through trusted data, scalable systems, and practical execution.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
@@ -389,8 +384,7 @@ export default function HomePage() {
             What We Do
           </p>
           <h2 className="mt-3 text-4xl font-semibold tracking-tight text-slate-950 md:text-5xl">
-            Practical consulting at the intersection of business, data, and
-            digital transformation
+          Practical advisory at the intersection of operations, data, and digital transformation
           </h2>
           <p className="mt-5 text-lg leading-8 text-slate-600">
             We work at the intersection of business strategy, data architecture,
@@ -665,7 +659,7 @@ export default function HomePage() {
       </section>
 
       <section id="about" className="mx-auto max-w-7xl px-6 py-24">
-        <div className="grid gap-8 lg:grid-cols-[0.92fr_1.08fr]">
+        <div className="max-w-4xl">
           <div className="relative overflow-hidden rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm md:p-10">
             <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-[#4C96C1] via-sky-300 to-emerald-400" />
 
@@ -679,9 +673,7 @@ export default function HomePage() {
               </h2>
 
               <p className="mt-6 text-lg leading-8 text-slate-600">
-                JaxMcKobe is a consulting and advisory practice focused on helping
-                organizations build strong digital foundations for growth, service
-                delivery, and intelligent decision-making.
+                JaxMcKobe is a consulting and advisory organization focused on helping institutions and enterprises build strong digital foundations for growth, operational visibility, and intelligent decision-making.
               </p>
 
               <p className="mt-5 text-lg leading-8 text-slate-600">
@@ -704,79 +696,6 @@ export default function HomePage() {
                     {item}
                   </div>
                 ))}
-              </div>
-            </div>
-          </div>
-
-          <div
-            id="leadership"
-            className="relative overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-950 p-8 shadow-sm md:p-10"
-          >
-            <div
-              className="absolute inset-0 bg-cover bg-center opacity-20"
-              style={{
-                backgroundImage: "url('/images/digital-foundation.jpg')",
-              }}
-            />
-            <div className="absolute inset-0 bg-slate-950/88" />
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(76,150,193,0.18),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(16,185,129,0.08),transparent_28%)]" />
-
-            <div className="relative">
-              <p className="text-sm font-semibold uppercase tracking-[0.22em] text-emerald-300">
-                Leadership
-              </p>
-
-              <div className="mt-6 flex items-start gap-5">
-                <div className="flex h-24 w-24 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-white/10 text-2xl font-semibold text-white backdrop-blur-sm">
-                  TA
-                </div>
-
-                <div>
-                  <h3 className="text-2xl font-semibold tracking-tight text-white">
-                    Teku Atanga
-                  </h3>
-                  <p className="mt-1 text-sm font-medium uppercase tracking-[0.18em] text-slate-300">
-                    Founder & Principal
-                  </p>
-                </div>
-              </div>
-
-              <h2 className="mt-8 max-w-2xl text-4xl font-semibold leading-tight tracking-tight text-white">
-                Grounded in enterprise experience and practical execution
-              </h2>
-
-              <p className="mt-6 text-lg leading-8 text-slate-300">
-                JaxMcKobe is led by Teku Atanga, a data and technology professional
-                with over 15 years of experience in enterprise data architecture,
-                master data management, governance, and digital transformation across
-                complex business environments.
-              </p>
-
-              <p className="mt-5 text-lg leading-8 text-slate-300">
-                His work spans healthcare, manufacturing, energy, retail, and
-                enterprise systems, where he has helped organizations design scalable
-                data foundations, modernize operational systems, and improve how
-                critical information is structured, governed, and used.
-              </p>
-
-              <p className="mt-5 text-lg leading-8 text-slate-300">
-                Teku specializes in connecting strategy, architecture, and execution
-                — ensuring that digital transformation initiatives are not only
-                well-designed, but successfully implemented and aligned with real
-                business outcomes.
-              </p>
-
-              <div className="mt-8 grid gap-3 text-sm text-slate-200">
-                <div className="rounded-2xl border border-white/10 bg-white/8 px-4 py-3 backdrop-blur-sm">
-                  15+ years in enterprise data architecture and digital transformation
-                </div>
-                <div className="rounded-2xl border border-white/10 bg-white/8 px-4 py-3 backdrop-blur-sm">
-                  MDM, governance, system design, and operational modernization
-                </div>
-                <div className="rounded-2xl border border-white/10 bg-white/8 px-4 py-3 backdrop-blur-sm">
-                  Experience spanning healthcare, manufacturing, energy, retail, and
-                  enterprise systems
-                </div>
               </div>
             </div>
           </div>
