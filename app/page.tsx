@@ -59,56 +59,53 @@ export default function HomePage() {
 
   const focusAreas = [
     {
-      title: "Healthcare Systems",
+      title: "Enterprise Data Foundations",
       description:
-        "We support the design and modernization of healthcare environments through better data, clearer workflows, and scalable digital structures.",
+        "Establish the models, standards, ownership, and trusted master and reference data needed to operate consistently across systems.",
       bullets: [
-        "Digital patient records",
-        "Clinic and hospital workflows",
-        "Data interoperability",
-        "Administrative and operational visibility",
-        "Scalable healthcare information foundations",
+        "Enterprise and canonical data models",
+        "Master and reference data management",
+        "Customer, supplier, product, and location domains",
+        "Hierarchy and taxonomy design",
+        "Data quality and reconciliation",
       ],
-      platform:
-        "HealthDisco extends this vision into a purpose-built digital healthcare platform for developing and growing markets.",
+      platform: "",
     },
     {
-      title: "Education Systems",
+      title: "Governance, Metadata & Trust",
       description:
-        "We help educational institutions move toward better administration, stronger visibility, and more effective digital operations.",
+        "Make data understandable, accountable, traceable, and usable through practical governance embedded in day-to-day operations.",
       bullets: [
-        "School management systems",
-        "Student and staff records",
-        "Attendance and academic tracking",
-        "Administrative process digitization",
-        "Training and digital adoption support",
+        "Governance operating models",
+        "Data ownership and stewardship",
+        "Metadata, catalog, and business glossary",
+        "Lineage and traceability",
+        "Policies, standards, controls, and quality",
       ],
-      platform:
-        "SooKooDoo supports this mission as a digital education infrastructure platform for school establishment and learning management.",
+      platform: "",
     },
     {
-      title: "Enterprise and Public Sector Operations",
+      title: "Modernization & Integration",
       description:
-        "We help organizations build stronger operational foundations across data-heavy and process-driven environments.",
+        "Connect fragmented environments and modernize data flows without manufacturing unnecessary complexity.",
       bullets: [
-        "Product, customer, supplier, and reference data",
-        "Operational modernization",
-        "Process standardization",
-        "Workflow visibility",
-        "Governance and controls",
-        "System integration planning",
+        "Data migration and platform modernization",
+        "API and systems integration",
+        "ETL / ELT and interoperability",
+        "Cloud data-platform strategy",
+        "Analytics and decision-ready foundations",
       ],
       platform: "",
     },
   ];
 
   const whoWeServe = [
-    "Governments and ministries",
-    "Healthcare institutions",
-    "Schools and educational organizations",
-    "Enterprises undergoing transformation",
-    "Organizations preparing for AI adoption",
-    "Institutions seeking better visibility, governance, and operational control",
+    "Federal, state, and public-sector organizations",
+    "Enterprises with fragmented or complex data environments",
+    "Organizations modernizing ERP, CRM, PIM, MDM, and analytics ecosystems",
+    "Data and technology leaders establishing governance and architecture",
+    "Organizations preparing trusted data foundations for AI and automation",
+    "Prime contractors seeking specialized enterprise data expertise",
   ];
 
   const steps = [
@@ -133,21 +130,21 @@ export default function HomePage() {
   const insights = [
     {
       tag: "Perspective",
-      title: "Why digital transformation efforts fail before implementation",
+      title: "Why enterprise data transformations fail before implementation",
       description:
         "A look at the structural gaps that weaken transformation initiatives before systems are ever deployed.",
     },
     {
       tag: "Case Insight",
-      title: "The hidden cost of weak data foundations in healthcare",
+      title: "The hidden cost of weak enterprise data foundations",
       description:
-        "How fragmented information impacts service delivery, visibility, and operational efficiency across healthcare environments.",
+        "How fragmented information impacts service delivery, visibility, and operational efficiency across complex enterprise environments.",
     },
     {
       tag: "Framework",
-      title: "A practical approach to AI readiness for institutions",
+      title: "A practical approach to trusted-data readiness for AI",
       description:
-        "Moving beyond hype to define what organizations actually need before adopting AI-enabled systems.",
+        "Moving beyond hype to define what organizations actually need before scaling AI-enabled systems.",
     },
   ];
 
@@ -384,10 +381,10 @@ export default function HomePage() {
           </div>
           <div>
             <p className="text-sm uppercase tracking-[0.18em] text-slate-500">
-              Focus Sectors
+              Delivery Context
             </p>
             <p className="mt-2 text-2xl font-semibold text-slate-950">
-              Health, Education & Enterprise
+              Commercial & Public Sector
             </p>
           </div>
           <div>
@@ -407,13 +404,10 @@ export default function HomePage() {
             What We Do
           </p>
           <h2 className="mt-3 text-4xl font-semibold tracking-tight text-slate-950 md:text-5xl">
-          Practical advisory at the intersection of operations, data, and digital transformation
+          Enterprise data capabilities from strategy through implementation
           </h2>
           <p className="mt-5 text-lg leading-8 text-slate-600">
-            We work at the intersection of business strategy, data architecture,
-            and digital transformation. Our role is to help organizations define
-            the right foundation, design the right systems, and move toward
-            implementation with confidence.
+            We help organizations establish trusted enterprise data, governed architecture, and scalable information flows—then carry that structure through modernization and implementation.
           </p>
         </div>
 
@@ -479,15 +473,13 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="max-w-3xl">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-700">
-              Focus Areas
+              Where We Create Value
             </p>
             <h2 className="mt-3 text-4xl font-semibold tracking-tight text-slate-950 md:text-5xl">
-              Designed for environments where trust, service delivery, and
-              operational visibility matter most
+              Built for complex environments where trusted data and operational clarity matter
             </h2>
             <p className="mt-5 text-lg leading-8 text-slate-600">
-              Our work is designed for organizations where strong foundations are
-              essential to better outcomes.
+              Our work concentrates on the enterprise data problems that create the most friction, risk, and transformation cost.
             </p>
           </div>
 
@@ -646,7 +638,7 @@ export default function HomePage() {
           <div className="grid gap-10 md:grid-cols-2">
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#9FD0EA]">
-                Why JaxMcKobe
+                Why JaxMckobe Consulting
               </p>
               <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
                 Structure before complexity. Foundations before hype.
@@ -697,8 +689,7 @@ export default function HomePage() {
                 decision-ready information foundations.
               </p>
               <p className="mt-5 max-w-xl text-sm leading-7 text-slate-400">
-                Contracting identifiers, business classifications, and downloadable capability materials
-                will be published here as they are finalized.
+                JaxMckobe Consulting is building its federal contracting practice around specialized enterprise data expertise, disciplined opportunity qualification, and prime/subcontract teaming where appropriate.
               </p>
             </div>
 
@@ -726,22 +717,19 @@ export default function HomePage() {
 
             <div className="relative">
               <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#4C96C1]">
-                About JaxMcKobe
+                About JaxMckobe Consulting
               </p>
 
               <h2 className="mt-4 max-w-xl text-4xl font-semibold leading-tight tracking-tight text-slate-950">
-                Consulting and advisory for strong digital foundations
+                Enterprise data consulting built around clarity, trust, and execution
               </h2>
 
               <p className="mt-6 text-lg leading-8 text-slate-600">
-                JaxMcKobe is a consulting and advisory organization focused on helping institutions and enterprises build strong digital foundations for growth, operational visibility, and intelligent decision-making.
+                JaxMckobe Consulting helps government and enterprise organizations solve complex data problems through architecture, master data management, governance, integration, modernization, and practical transformation leadership.
               </p>
 
               <p className="mt-5 text-lg leading-8 text-slate-600">
-                Our work spans enterprise data architecture, digital transformation,
-                and readiness for AI-enabled operations. We believe modernization
-                succeeds when data is trusted, systems are designed with purpose, and
-                implementation is grounded in real operational needs.
+                Our work connects strategy to implementation. We believe modernization succeeds when data is trusted, ownership is clear, architecture is intentional, and technology is grounded in real operational needs.
               </p>
 
               <div className="mt-8 grid gap-3">
@@ -789,17 +777,13 @@ export default function HomePage() {
                 Our Vision
               </p>
               <h2 className="mt-3 text-3xl font-semibold tracking-tight text-slate-950">
-                Trusted data, scalable systems, and human-centered design
+                Trusted data, scalable architecture, and operational clarity
               </h2>
               <p className="mt-5 text-base leading-8 text-slate-600">
-                We believe the future belongs to organizations that can combine
-                trusted data, scalable systems, and human-centered design.
+                We believe durable transformation starts with trusted data, scalable architecture, and operating models people can actually use.
               </p>
               <p className="mt-4 text-base leading-8 text-slate-600">
-                Our vision is to help build digital foundations that improve
-                service delivery, strengthen institutions, and support long-term
-                development across healthcare, education, and enterprise
-                operations.
+                Our vision is to help organizations see their data clearly, govern it responsibly, connect it across systems, and use it confidently for operations, analytics, automation, and AI.
               </p>
             </div>
           </div>
@@ -812,9 +796,7 @@ export default function HomePage() {
             Define the Right Foundation for Your Organization
           </p>
           <h2 className="mt-3 max-w-4xl text-4xl font-semibold leading-tight tracking-tight md:text-5xl">
-            Whether you are modernizing healthcare systems, strengthening
-            educational operations, improving data governance, or preparing for
-            AI, JaxMcKobe can help define the right path forward.
+            Whether you are modernizing enterprise data, establishing governance, resolving master-data fragmentation, integrating systems, or preparing for AI, JaxMckobe Consulting can help define the right path forward.
           </h2>
           <div className="mt-8 flex flex-wrap gap-4">
             <a
@@ -843,7 +825,7 @@ export default function HomePage() {
               Start the conversation
             </h2>
             <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-600">
-              To learn more about JaxMcKobe or discuss a potential engagement,
+              To discuss a commercial, public-sector, or teaming engagement with JaxMckobe Consulting,
               please get in touch.
             </p>
 
@@ -929,13 +911,13 @@ export default function HomePage() {
 
       <footer className="border-t border-slate-200 bg-white">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-sm text-slate-500 md:flex-row md:items-center md:justify-between">
-          <div>© {new Date().getFullYear()} JaxMcKobe. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} JaxMckobe Consulting. All rights reserved.</div>
           <div className="flex gap-5">
             <a href="#capabilities" className="hover:text-slate-700">
               Capabilities
             </a>
-            <a href="#focus-areas" className="hover:text-slate-700">
-              Focus Areas
+            <a href="#government" className="hover:text-slate-700">
+              Government
             </a>
             <a href="#about" className="hover:text-slate-700">
               About
