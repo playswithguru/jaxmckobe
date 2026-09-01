@@ -1,7 +1,7 @@
 export default function HomePage() {
   const services = [
     {
-      title: "Enterprise Data Architecture",
+      title: "Architecture & Modernization Architecture",
       points: [
         "Enterprise and canonical data models",
         "Information and solution architecture",
@@ -267,7 +267,7 @@ export default function HomePage() {
               <div className="space-y-4">
                 <div className="rounded-[1.5rem] border border-emerald-300/15 bg-emerald-400/10 p-6">
                   <p className="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-200">
-                    Healthcare
+                    Data Foundation
                   </p>
                   <p className="mt-2 text-sm leading-7 text-slate-100 md:text-[15px]">
                     Master data, reference data, quality, models, and trusted enterprise definitions
@@ -276,7 +276,7 @@ export default function HomePage() {
 
                 <div className="rounded-[1.5rem] border border-sky-300/15 bg-sky-400/10 p-6">
                   <p className="text-xs font-semibold uppercase tracking-[0.18em] text-sky-200">
-                    Education
+                    Governance & Trust
                   </p>
                   <p className="mt-2 text-sm leading-7 text-slate-100 md:text-[15px]">
                     Stewardship, metadata, catalog, lineage, standards, and controls
