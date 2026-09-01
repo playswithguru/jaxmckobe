@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "JaxMcKobe",
-  description: "Digital Foundations for Modern Institutions",
+  title: "JaxMckobe Consulting | Enterprise Data, Architecture & Transformation",
+  description: "Enterprise data architecture, MDM, governance, integration, modernization, data engineering and analytics consulting.",
   icons: {
     icon: "/favicon.png",
     shortcut: "/favicon.png",

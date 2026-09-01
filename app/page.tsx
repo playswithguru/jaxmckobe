@@ -3,34 +3,56 @@ export default function HomePage() {
     {
       title: "Enterprise Data Architecture",
       points: [
-        "Master Data Management",
-        "Data governance frameworks",
-        "Data models and standards",
+        "Enterprise and canonical data models",
+        "Information and solution architecture",
+        "Data domain and standards design",
         "Integration architecture",
-        "Metadata and business definitions",
-        "Data quality strategy",
-      ],
-    },
-    {
-      title: "Digital Transformation Advisory",
-      points: [
-        "Current-state assessments",
-        "Target operating model design",
-        "Process and workflow redesign",
-        "Platform and system strategy",
-        "Roadmap development",
+        "Architecture roadmaps",
         "Business and technical alignment",
       ],
     },
     {
-      title: "AI Readiness and Intelligent Systems",
+      title: "Data Management & MDM",
       points: [
-        "AI readiness assessments",
-        "Data preparation for AI use cases",
-        "Enterprise AI architecture",
-        "Intelligent workflow design",
-        "Decision support systems",
-        "Practical use-case identification",
+        "Master and reference data management",
+        "Customer, supplier, and product masters",
+        "Identity resolution and match/merge",
+        "Hierarchy and taxonomy design",
+        "Data quality and remediation",
+        "Golden-record operating models",
+      ],
+    },
+    {
+      title: "Data Governance & Trust",
+      points: [
+        "Governance operating models",
+        "Data ownership and stewardship",
+        "Metadata, catalog, and business glossary",
+        "Data lineage and traceability",
+        "Policies, standards, and controls",
+        "Data quality and trust frameworks",
+      ],
+    },
+    {
+      title: "Integration & Modernization",
+      points: [
+        "Data migration and modernization",
+        "API and systems integration",
+        "ETL / ELT and interoperability",
+        "Cloud and data-platform strategy",
+        "Legacy-system transition",
+        "Enterprise information flows",
+      ],
+    },
+    {
+      title: "Data Engineering & Analytics",
+      points: [
+        "Data pipelines and ingestion",
+        "Warehouses, lakes, and data platforms",
+        "Analytics and business intelligence",
+        "Decision-support foundations",
+        "Reporting and operational visibility",
+        "AI-ready trusted data foundations",
       ],
     },
   ];
@@ -136,7 +158,8 @@ export default function HomePage() {
           <a href="#" className="shrink-0 leading-none">
             <div className="text-3xl font-semibold tracking-tight md:text-4xl">
               <span className="text-white/70">Jax</span>
-              <span className="text-[#7CC3EA]">McKobe</span>
+              <span className="text-[#7CC3EA]">Mckobe</span>
+              <span className="ml-2 text-base font-medium tracking-wide text-white/75 md:text-lg">Consulting</span>
             </div>
           </a>
 
@@ -144,8 +167,11 @@ export default function HomePage() {
             <a href="#capabilities" className="transition hover:text-white">
               Capabilities
             </a>
-            <a href="#focus-areas" className="transition hover:text-white">
-              Focus Areas
+            <a href="#experience" className="transition hover:text-white">
+              Experience
+            </a>
+            <a href="#government" className="transition hover:text-white">
+              Government
             </a>
             <a href="#about" className="transition hover:text-white">
               About
@@ -191,15 +217,15 @@ export default function HomePage() {
         <div className="relative mx-auto grid min-h-[760px] max-w-7xl grid-cols-1 gap-20 px-6 pb-20 pt-32 md:pt-36 lg:min-h-[820px] lg:grid-cols-[1fr_0.92fr] lg:items-center">
           <div className="max-w-2xl">
             <div className="mb-7 inline-flex w-fit rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-[#B9D9EC] backdrop-blur-md">
-              Strategy • Systems • Scalable Transformation
+              Enterprise Data • Architecture • Transformation
             </div>
 
             <h1 className="max-w-2xl text-4xl font-semibold leading-[1.04] tracking-tight text-white md:text-6xl lg:text-[4.5rem]">
-              Building foundations for digital transformation
+              Enterprise data foundations for trusted transformation
             </h1>
 
             <p className="mt-8 max-w-xl text-lg leading-8 text-slate-200 md:text-[1.2rem] md:leading-9">
-          We help governments, institutions, and enterprises improve operations through trusted data, scalable systems, and practical execution.
+          We help government and enterprise organizations modernize complex data environments through data architecture, governance, master data management, integration, and trusted information foundations.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
@@ -225,9 +251,9 @@ export default function HomePage() {
 
             <div className="mt-8 flex flex-wrap gap-3">
               {[
-                "Trusted data foundations",
-                "Operational clarity",
-                "Scalable digital systems",
+                "Trusted enterprise data",
+                "Governed architecture",
+                "Scalable modernization",
               ].map((item) => (
                 <div
                   key={item}
@@ -247,8 +273,7 @@ export default function HomePage() {
                     Healthcare
                   </p>
                   <p className="mt-2 text-sm leading-7 text-slate-100 md:text-[15px]">
-                    Digital patient records, clinic workflows, interoperable
-                    systems
+                    Master data, reference data, quality, models, and trusted enterprise definitions
                   </p>
                 </div>
 
@@ -257,8 +282,7 @@ export default function HomePage() {
                     Education
                   </p>
                   <p className="mt-2 text-sm leading-7 text-slate-100 md:text-[15px]">
-                    School management, student records, digital learning
-                    operations
+                    Stewardship, metadata, catalog, lineage, standards, and controls
                   </p>
                 </div>
 
@@ -267,8 +291,7 @@ export default function HomePage() {
                     Enterprise Data
                   </p>
                   <p className="mt-2 text-sm leading-7 text-slate-100 md:text-[15px]">
-                    Governance, standards, integration, visibility, and AI
-                    readiness
+                    Enterprise architecture, integration, migration, cloud data platforms, and analytics
                   </p>
                 </div>
               </div>
@@ -279,7 +302,7 @@ export default function HomePage() {
         <div className="pointer-events-none absolute inset-x-0 bottom-0 h-28 bg-gradient-to-b from-transparent to-white" />
       </section>
 
-      <section className="relative z-10 mx-auto max-w-7xl px-6 pb-20 pt-6">
+      <section id="experience" className="relative z-10 mx-auto max-w-7xl px-6 pb-20 pt-6">
         <div className="max-w-3xl">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">
             Selected Experience
@@ -658,7 +681,45 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="about" className="mx-auto max-w-7xl px-6 py-24">
+            <section id="government" className="border-y border-slate-200 bg-slate-950 py-24 text-white">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#7CC3EA]">
+                Government
+              </p>
+              <h2 className="mt-4 text-3xl font-semibold tracking-tight md:text-4xl">
+                Federal data and information management capabilities
+              </h2>
+              <p className="mt-5 max-w-xl text-lg leading-8 text-slate-300">
+                JaxMckobe Consulting supports public-sector organizations with enterprise data architecture,
+                governance, master and reference data, data quality, integration, modernization, and
+                decision-ready information foundations.
+              </p>
+              <p className="mt-5 max-w-xl text-sm leading-7 text-slate-400">
+                Contracting identifiers, business classifications, and downloadable capability materials
+                will be published here as they are finalized.
+              </p>
+            </div>
+
+            <div className="grid gap-4 sm:grid-cols-2">
+              {[
+                ["Enterprise Data", "Architecture, MDM, reference data, quality, canonical models"],
+                ["Governance & Trust", "Stewardship, metadata, catalog, lineage, standards, controls"],
+                ["Integration", "Migration, APIs, ETL / ELT, interoperability, information flows"],
+                ["Modernization", "Cloud data platforms, legacy transition, analytics foundations"],
+              ].map(([title, text]) => (
+                <div key={title} className="rounded-2xl border border-white/10 bg-white/5 p-6">
+                  <h3 className="font-semibold text-white">{title}</h3>
+                  <p className="mt-2 text-sm leading-6 text-slate-300">{text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+<section id="about" className="mx-auto max-w-7xl px-6 py-24">
         <div className="max-w-4xl">
           <div className="relative overflow-hidden rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm md:p-10">
             <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-[#4C96C1] via-sky-300 to-emerald-400" />
